@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(720, 480);// create a 720 * 480 canvas
+  createCanvas(720, 480);// creates a 720 * 480 canvas
   smooth();// draws all geometry with smooth edges
   strokeWeight(3);// sets thickness of lines to 3
 }
@@ -33,7 +33,7 @@ function draw() {
   line(276, 155, 342, 170);// draws the third line of the anteenae
   
   // Body
-  stroke(255,255,255);// sets the color used to draw lines of the body
+  stroke(255, 255, 255);// sets the color used to draw lines of the body
   fill(164, 198, 57); // fills the color of an ellipse of the body
   ellipse(264, 377, 66, 66); // draws an ellipse of the body
   fill(164, 198, 57); // fills the color of the first rectangle of the body
