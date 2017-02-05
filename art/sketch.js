@@ -22,34 +22,24 @@ function draw() {
   quad(100, 130, 130, 115, 140, 140, 120, 150);// draws the green quad
   
   // two lines that intersect
-  stroke(0);// fills the color of the lines
-  strokeWeight(1);// sets the thickness of the lines
   line(160, 140, 135, 200);// draws the first line
   line(148, 170, 200, 172);// draws the second line
   
   // blue quad right to the two lines
-  stroke(0); // fills the color of the edge of the blue quad
-  strokeWeight(1);// sets the thickness of the blue quad
   fill(191, 207, 217);// fills the color of blue quad
   quad(200, 140, 300, 125, 320, 160, 195, 160)// draws the blue quad
   
   // green half ellipse on the top
-  stroke(0);// fills the color of the edge of the green half ellipse
-  strokeWeight(1);// sets the thickness of the edge of the green half ellipse
   fill(206, 210, 168);// fills the color the green half ellipse
   arc(350, 105, 20, 20, 0, PI, CHORD);// draws the green half ellipse
   
   // purple object under the green half ellipse
   
   // top half ellipse
-  stroke(0);// fills the color of the edge of the top half ellipse
-  strokeWeight(1);// sets the thickness of the edge of the top half ellipse
   fill(142, 150, 185);// fills the color of the top half ellipse
   arc(370, 180, 60, 60, HALF_PI, HALF_PI+PI, CHORD);// draws the top half ellipse
   
   // bottom half ellipse
-  stroke(0);// fills the color of the edge of the bottom half ellipse
-  strokeWeight(1);// sets the thickness of the edge of the bottom half ellipse
   fill(142, 150, 185);// fills the color of the bottom half ellipse
   arc(370, 240, 60, 60, HALF_PI, HALF_PI+PI, CHORD);// draws the bottom half ellipse
   
@@ -66,46 +56,34 @@ function draw() {
   line(389, 149, 389, 270);// draws the third line
   
   // green-blue quad next to the purple object
-  stroke(0);// fills the color of the green-blue quad
-  strokeWeight(1);// sets the thickness of the green-blue quad
   fill(178, 191, 181);// fills the color of the green-blue quad
   quad(440, 139, 455, 145, 450, 160, 435, 155);// draws the green-blue quad
   
   // a line on the top
-  stroke(0);// fills the color of the line
-  strokeWeight(1);//sets the thickness of the line
   line(450, 100, 480, 150);// draws the line
   
   // blue star
   // quad
-  stroke(0);// fills the color of the edge of the quad
-  strokeWeight(1);// sets the thickness of the edge of the quad
   fill(135, 165, 170);// fills the color of the quad
   quad(210, 180, 230, 200, 210, 220 ,190, 185);// draws the quad
   
   // triangle
   stroke(135, 165, 170);// fills the color of the edge of the triangle
-  strokeWeight(1);// sets the thickness of the edge of the triangle
   fill(135, 165, 170);// fills the color of the triangle
   triangle(185, 210, 191, 185, 211, 220);// draws the triangle
   
   // finishes the edge of the triangle
   stroke(0);// fills the color of the edge of the triangle
-  strokeWeight(1);// sets the thickness of the edge of the triangle
   line(190, 185, 185, 210);// draws the first line
   line(185, 210, 210, 220);// draws the second line
   
   // blue half ellipse on the right
-  stroke(0);// fills the color of the edge of the blue half ellipse
-  strokeWeight(1);// sets the thickness of the edge of the blue half ellipse
   fill(188, 209, 212);// fills the color of the blue half ellipse
   arc(480, 200, 20, 20, HALF_PI+QUARTER_PI, HALF_PI+PI, CHORD);// draws the blue half ellipse
   
   // purple flag on the left
   
   // line
-  stroke(0);// fills the color of the line
-  strokeWeight(1);// sets the thickness of the line
   line(160, 190, 170, 290);// draws the line
   
   // quad
