@@ -1,6 +1,9 @@
 /*  Written by Jessica Bao
     Last edited 02/11/2017
-    A clickable happy valentine message with randomized colors
+    A happy valentine message
+    When the mouse is hovered over the text, it will start shaking
+    When the user clicks the mouse, the text will change to a random color each time
+    together with a random-colored heart
 */
 
 var x_happy = 300; 
@@ -11,10 +14,10 @@ var x_val = x_happy + 130
 var y_val = y_happy;
  
 function setup() {
-  createCanvas(900, 600); // creates a canvas
+  createCanvas(900, 600); // creates the canvas
   textSize(60); // sets the font size
   textFont("Permanent Marker");// sets the text font
-  frameRate(20); // controls the frame rate
+  frameRate(20); // controls the frame rate of each shake
 }
 
 function draw() {
@@ -29,7 +32,7 @@ function draw() {
   }
 }
 
-// allows the text to shake when the mouse is hovered over
+// allows the text to shake when the mouse is hovered over the text
 function shake() {
   if (mouseX >= x_happy && mouseX <= x_happy + textLength && mouseY >= y_val && mouseY <= y_val + textHeight) {
     x_happy = mouseX - random(100, 200);
