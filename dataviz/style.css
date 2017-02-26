@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.canvas {
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.info {
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    padding: 40px;
+    width: 25vw;
+}
+
