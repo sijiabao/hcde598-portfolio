@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 600px;
+  margin: 0 auto;
+  background-color:rgb(68, 155, 181);
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  color: rgb(4, 61, 93);
+}
